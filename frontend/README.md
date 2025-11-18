@@ -1,6 +1,6 @@
 ## Install Project 
 
-Run `npm install` for a dev server. Navigate to `http://localhost:4200/`.
+Run `npm install` for install package.json.
 
 ## Development server
 
