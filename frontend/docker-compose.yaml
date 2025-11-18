@@ -1,0 +1,9 @@
+version: "1.0"
+services:
+  app:
+    build: ./
+    volumes:
+      - ".:/app/"
+      - /app/node_modules/
+    ports:
+      - "4200:4200"
