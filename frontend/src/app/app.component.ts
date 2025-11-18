@@ -24,7 +24,7 @@ export class AppComponent {
   }
 
   getDocument(){
-    // this.docs = [];
+    this.docs = [];
     this.service.getDocuments().subscribe((data) => {
       data.data.map(doc => this.docs.push(doc));
     });
